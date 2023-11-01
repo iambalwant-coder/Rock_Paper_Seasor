@@ -1,0 +1,60 @@
+Project Name :- Rock Paper Seasor.
+
+Winning :- 1) Rock wins againest Seasor.
+           2) Paper wins againest Rock.
+           3) Seasor wins againest Paper.
+
+           0. For Rock.
+           1. For Paper.
+           2. For Seasor.
+
+Possibilities :-
+         sr.num     user_choice     computer_choice         Remarks
+           1)           0                   0     ------>    Draw
+           2)           0                   1     ------>    You Lose
+           3)           0                   2     ------>    You Win
+           
+           4)           1                   0     ------>    You Win
+           5)           1                   1     ------>    Draw
+           6)           1                   2     ------>    You Lose
+
+           7)           2                   0     ------>    You Lose
+           8)           2                   1     ------>    You Win
+           9)           2                   2     ------>    Draw
+
+
+signs of hand:-
+# Rock Paper Scissors ASCII Art
+
+# Rock
+print("""
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+
+""")
+
+# Paper
+print("""
+    ________
+---'    ____)____
+           ______)
+          _______)
+         _______)
+---.__________)
+
+""")
+
+# Scissors
+print("""
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+
+""")
